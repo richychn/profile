@@ -52,6 +52,12 @@ a:hover {
   margin-right: 27%;
 }
 
+.big-media {
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card {
   background: white;
   padding: 50px;
