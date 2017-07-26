@@ -141,3 +141,7 @@ a:hover {
 .video-fullscreen {
   max-width: 100%;
 }
+
+#profileh2 {
+  padding-bottom: 0px;
+}
