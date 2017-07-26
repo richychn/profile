@@ -137,3 +137,7 @@ a:hover {
 
   line-height: 1.4em;
 }
+
+.video-fullscreen {
+  max-width: 100%;
+}
