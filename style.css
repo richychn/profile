@@ -46,8 +46,8 @@ a:hover {
 }
 
 .container {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 33%;
+  margin-right: 27%;
 }
 
 .card {
@@ -89,7 +89,7 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  width: 100px;
+  width: 70px;
   left: 0;
   top: 0;
   bottom: 0;
