@@ -1,0 +1,14 @@
+#sidebar {
+  position: fixed;
+  width: 70px;
+  left: 15%;
+  top: 30%;
+  bottom: 30%;
+  background-color: rgb(50, 50, 50);
+}
+
+#sidebar .fa {
+  font-color: rgba(155, 155, 155, 0.5);
+  font-size: 30px;
+  padding: 20px 0px;
+}

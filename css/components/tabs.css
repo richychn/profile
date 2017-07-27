@@ -1,0 +1,39 @@
+/* Your tabs CSS code here */
+.tabs {
+  display: flex;
+  flex-flow: row;
+  margin-top: 40px;
+}
+
+.tab {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #61b050;
+  color: white;
+}
+
+.tab:first-child {
+  border-top-left-radius: 10px;
+}
+
+.tab:last-child {
+  border-top-right-radius: 10px;
+}
+
+.tab h4 {
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.tab p {
+  font-family: "Open Sans", serif;
+}
+
+.tab:hover {
+  background-color: #579f48;
+  color: white;
+}

@@ -1,0 +1,82 @@
+@import url("components/avatar.css");
+@import url("components/sidebar.css");
+@import url("components/tabs.css");
+@import url("components/profile_header.css");
+@import url("components/words.css");
+@import url("components/youtube-cards.css")
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Zilla Slab', serif;
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#profile {
+  display: block;
+  margin: 5px auto;
+  border: 20px rgba(50, 50, 50, 0.2);
+}
+
+a {
+  color: rgb(0, 100, 0);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: rgba(0, 100, 0, 0.7);
+}
+
+.container {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.card {
+  background: white;
+  padding: 50px;
+  margin: 30px auto;
+  box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 50px;
+
+}
+
+#movies-table td + td {
+  padding-left: 20px;
+}
+
+#movies-table td {
+  padding-bottom: 10px
+}
+
+.text-center{
+  text-align: center;
+}
+
+#media .fa {
+  font-size: 40px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+#movies img {
+  width: 160px;
+  height: 240px;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+}

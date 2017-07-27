@@ -1,0 +1,24 @@
+/* Your profile header CSS code here */
+.profile-header-wrapper {
+  background-color: #447c38;
+  position: relative;
+  margin: 0;
+}
+
+.profile-header-infos {
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.profile-header-infos h2 {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.profile-header-infos h1 {
+  font-family: "Raleway", serif;
+}
