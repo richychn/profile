@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile home/code/richychn/profile/wissen-plan.html
+protecting/.htpasswd
+require valid-user
