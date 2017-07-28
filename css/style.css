@@ -1,9 +1,14 @@
 @import url("components/avatar.css");
 @import url("components/sidebar.css");
 @import url("components/tabs.css");
-@import url("components/profile_header.css");
+@import url("layouts/profile_header.css");
 @import url("components/words.css");
 @import url("components/youtube-cards.css");
+@import url("components/card.css");
+@import url("components/movies.css");
+@import url("components/icons.css");
+@import url("layouts/grid.css");
+@import url("layouts/wissen-categories.css");
 
 body {
   background-color: rgb(240, 240, 240);
@@ -11,12 +16,6 @@ body {
   color: rgb(34, 34, 34);
   font-size: 15px;
   line-height: 25px;
-}
-
-#profile {
-  display: block;
-  margin: 5px auto;
-  border: 20px rgba(50, 50, 50, 0.2);
 }
 
 a {
@@ -39,13 +38,6 @@ a:hover {
   margin-right: 15%;
 }
 
-.card {
-  background: white;
-  padding: 50px;
-  margin: 30px auto;
-  box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
-}
-
 .list-inline {
   padding-left: 0px;
 }
@@ -56,63 +48,11 @@ a:hover {
 
 }
 
-#movies-table td + td {
-  padding-left: 20px;
-}
-
-#movies-table td {
-  padding-bottom: 10px
-}
-
 .text-center{
   text-align: center;
-}
-
-#media .fa {
-  font-size: 40px;
-}
-
-#page-content {
-  margin-left: 300px;
-}
-
-#movies img {
-  width: 160px;
-  height: 240px;
 }
 
 .list-unstyled {
   list-style: none;
   padding: 0;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10% 90%;
-}
-
-.card-eq {
-  background-color: white;
-  height: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
-}
-
-.font-ex {
-  height: 100%;
-  text-align: center;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.font-head {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 3;
-}
-
-.font-head .card {
-  margin: 10px;
 }

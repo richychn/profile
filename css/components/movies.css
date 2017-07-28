@@ -1,0 +1,12 @@
+#movies-table td + td {
+  padding-left: 20px;
+}
+
+#movies-table td {
+  padding-bottom: 10px
+}
+
+#movies img {
+  width: 160px;
+  height: 240px;
+}

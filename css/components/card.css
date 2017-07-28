@@ -1,0 +1,23 @@
+.card {
+  background: white;
+  box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
+}
+
+.card-padding {
+  padding: 50px;
+}
+
+.card-v-margin {
+  margin: 30px auto;
+}
+
+.card-cat-rows {
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-cat-head {
+  margin: 10px;
+}
