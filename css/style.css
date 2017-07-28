@@ -9,6 +9,7 @@
 @import url("components/icons.css");
 @import url("layouts/grid.css");
 @import url("layouts/wissen-categories.css");
+@import url("layouts/navbar.css");
 
 body {
   background-color: rgb(240, 240, 240);

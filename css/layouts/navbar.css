@@ -1,0 +1,15 @@
+.navbar-minimalist {
+  height: 35px;
+  background: rgb(50, 50, 50);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-minimalist a {
+  font-color: rgba(155, 155, 155, 0.5);
+  font-size: 20px;
+  font-weight: bold;
+}
