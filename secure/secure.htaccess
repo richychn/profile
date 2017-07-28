@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile home/code/richychn/profile/pass.htpasswd
-protecting/.htpasswd
-require valid-user
