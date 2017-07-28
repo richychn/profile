@@ -34,6 +34,11 @@ a:hover {
   margin-right: 30%;
 }
 
+.container-wide {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .card {
   background: white;
   padding: 50px;
@@ -79,4 +84,35 @@ a:hover {
 .list-unstyled {
   list-style: none;
   padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 90%;
+}
+
+.card-eq {
+  background-color: white;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.2);
+}
+
+.font-ex {
+  height: 100%;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.font-head {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+}
+
+.font-head .card {
+  margin: 10px;
 }

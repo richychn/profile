@@ -22,3 +22,33 @@ h3 {
   padding-bottom: 10px;
   color: #447c38;
 }
+
+.unica {
+  font-family: 'Unica One', cursive;
+  font-size: 30px;
+}
+
+.vollkorn {
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+}
+
+.nixie {
+  font-family: 'Nixie One', cursive;
+  font-size: 30px;
+}
+
+.julius {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+}
+
+.crimson {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
