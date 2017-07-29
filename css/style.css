@@ -10,6 +10,8 @@
 @import url("layouts/grid.css");
 @import url("layouts/wissen-categories.css");
 @import url("layouts/navbar.css");
+@import url("components/button.css");
+@import url("layouts/menu-flex.css");
 
 body {
   background-color: rgb(240, 240, 240);
@@ -19,14 +21,20 @@ body {
   line-height: 25px;
 }
 
-a {
+.a-green {
   color: rgb(0, 100, 0);
   text-decoration: none;
   font-size: 17px;
 }
 
-a:hover {
+.a-green:hover {
   color: rgba(0, 100, 0, 0.7);
+}
+
+.a-white {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .container {
@@ -56,4 +64,8 @@ a:hover {
 .list-unstyled {
   list-style: none;
   padding: 0;
+}
+
+.text-center {
+  text-align: center;
 }

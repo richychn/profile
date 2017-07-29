@@ -1,0 +1,18 @@
+.btn-lg {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.btn-green {
+  background-color: #61b050;
+  border: 2px solid #447c38;
+}
+
+.btn-green:hover {
+  background-color: #579f48;
+}
+
+.btn-bl-img {
+  display: flex;
+}
