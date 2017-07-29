@@ -2,9 +2,20 @@
   text-align: center;
   margin-right: 10px;
   margin-left: 10px;
+  height: 100%;
 }
 
 .cat-head {
   grid-row: 1 / span 1;
   grid-column: 1 / span 3;
+  margin-top: 15px;
+}
+
+.cat-head:first {
+  margin-top: 0;
+}
+
+.cat-ex img {
+  height: 100%;
+  width: 100%;
 }
